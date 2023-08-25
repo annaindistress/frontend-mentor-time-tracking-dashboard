@@ -20,12 +20,22 @@ Users should be able to:
 
 ## Screenshot
 
+![](./screenshot.png)
+
 ## Links
 
 - [Solution URL](https://github.com/annaindistress/frontend-mentor-time-tracking-dashboard)
 - [Live Site URL](https://annaindistress.github.io/frontend-mentor-time-tracking-dashboard/)
 
 ## Built with
+
+- Semantic HTML5 markup
+- CSS Flexbox
+- CSS Grid
+- PostCSS
+- Mobile-first workflow
+- React
+- Vite
 
 ## Author
 

@@ -1,0 +1,51 @@
+.filter {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.filter__button {
+  display: block;
+  width: 100%;
+  padding: 24px;
+  font-family: inherit;
+  font-size: 18px;
+  color: var(--color-neutral-desaturated);
+  background-color: transparent;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.filter__button:focus {
+  color: white;
+  outline-color: currentColor;
+}
+
+.filter__button--active {
+  color: white;
+}
+
+@media (min-width: 1200px) {
+
+  .filter {
+    grid-template-columns: 1fr;
+    padding-block-start: 16px;
+    padding-block-end: 24px;
+  }
+
+  .filter__button {
+    padding: 10px 32px;
+    text-align: start;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+
+  .filter__button:hover {
+    color: white;
+    outline-color: currentColor;
+  }
+}
