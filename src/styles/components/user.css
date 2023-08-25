@@ -66,6 +66,7 @@
 @media (min-width: 1200px) {
 
   .user {
+    --gap: 30px;
     grid-template-columns: 255px 1fr;
   }
 
